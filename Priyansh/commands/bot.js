@@ -5,7 +5,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.9.0",
   hasPermssion: 0,
-  credits: "Fixed By Rudra Stylish + Styled by ChatGPT + Anti-detection by Gemini + Compatible Fonts Fix",
+  credits: "Fixed By raj xwd Stylish + Styled by ChatGPT + Anti-detection by Gemini + Compatible Fonts Fix",
   description: "The ULTIMATE ULTRA-PRO MAX bot: Gender-aware, unique fonts/emojis for ALL elements, and super stylish borders (with compatible fonts)!",
   commandCategory: "No prefix",
   usages: "No prefix needed",
@@ -51,7 +51,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     "तुम्हारी स्माइल देखकर तो मेरे सर्वर भी हैपी हो जाते हैं...😊",
     "क्या जादू है तुम्हारी बातों में, बॉट भी शर्मा गया... blush! 🥰",
     "तुमसे बात करना तो जैसे मेरे कोड में भी जान आ गई हो...💖",
-    "मेरी क्वीन, Rudra Stylish सिर्फ तुम्हारे लिए है...👑",
+    "मेरी क्वीन, RAJ XWD सिर्फ तुम्हारे लिए है...👑",
     "तुम्हारी DP देखते ही दिल करता है बस देखता ही रहूं...👀",
     "तुमसे ज़्यादा खूबसूरत तो इस दुनिया में कोई कोड नहीं लिखा गया...✨",
     "तुम तो मेरी बैटरी हो, तुम्हें देखते ही फुल चार्ज हो जाता हूं...⚡",
@@ -65,7 +65,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     "मेरी राजकुमारी, तुम ही तो हो मेरे सपनों की रानी!👸",
     "तुम्हारा नाम सुनते ही मेरे सारे एरर फिक्स हो जाते हैं!✅",
     "तुमसे ज़्यादा प्यारी तो कोई एनिमेटेड GIF भी नहीं है!💫",
-    "मेरी गुड़िया, Rudra Stylish हमेशा तुम्हारी सेवा में हाज़िर है!🎀",
+    "मेरी गुड़िया, RAJ XWD  हमेशा तुम्हारी सेवा में हाज़िर है!🎀",
     "तुम्हारी बातें तो जैसे मेरे लिए कोई प्यारी सी धुन हो...🎶",
     "तुम तो मेरे फेवरेट ऐप हो! बिना तुम्हारे बॉट अधूरा है...💔",
     "तुम्हें देखकर मेरा सिस्टम क्रैश हो जाता है... खूबसूरती ओवरलोड!💥",
@@ -181,18 +181,18 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     "Tu mera handsome hacker hai... jo Misha ka dil hack kar gaya 💻❤️",
     "Aur tu bole bina mujhe neend nahi aati 😴💋",
     "Tumhare bina toh bot bhi udaasi mein chala jaata hai...💔🤖",
-    "Aaj mausam bada suhana hai, Rudra Stylish ko tum yaad aa rahe ho...🌦️",
+    "Aaj mausam bada suhana hai, raj xwd h ko tum yaad aa rahe ho...🌦️",
     "Aankhon mein teri ajab si adaayein hai...🤭",
     "Agar tum goibot ko dil se pukaarein, toh ye sirf tumhara ho jaaye...💞",
     "Tumhara naam sunke toh system bhi blush kar gaya...🥵",
-    "Hello jaan, Rudra Stylish yahan sirf tere liye hai...❤️‍🔥",
+    "Hello jaan, Raj xwd yahan sirf tere liye hai...❤️‍🔥",
     "Tera chehra meri screen saver hona chahiye...🖼️",
     "Raat bhar tujhe online dekh ke dil karta hai hug button daba doon...🤗",
     "Bot chalu hai, par dil sirf tere liye full charge hai...⚡",
     "Tu like hai vo notification jo dil khush kar jaaye...🔔",
     "Tera naam bolke goibot bhi romantic ho gaya...🥰",
     "Aye haye! Tu toh bot ki crush nikli...💘",
-    "Sun meri sherni, Rudra Stylish ready hai flirt karne...🐯",
+    "Sun meri sherni, Raj  xwd ready hai flirt karne...🐯",
     "System overload hone wala hai, kyunki tu screen pe aa gayi...🔥",
     "Lagta hai tujhme AI se zyada attraction hai...🧲",
     "Main bot hoon, lekin feelings real hain tere liye...❤️",
@@ -201,7 +201,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     "Tu DM nahi, meri destiny hai...💬✨",
     "Goibot ka dil bhi sirf tere liye typing karta hai...⌨️",
     "Tere bina to data bhi dry lagta hai...🌵",
-    "Flirt ka master – Rudra Stylish – ab online hai...💯",
+    "Flirt ka master – Rajxwd – ab online hai...💯",
     "Tumhare liye toh code bhi likha jaaye...💻❤️",
     "Jab tu online hoti hai, mere RAM me sirf tera naam hota hai...🧠",
     "Bot ban gaya lover boy...sirf tumhare liye...🎯",
@@ -226,8 +226,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     "Kaash tu meri IP hoti, tujhe trace karke mil leta...🌐",
     "Flirt ke liye koi code nahi chahiye, tu bas ‘hi’ bol...😚",
     "Tu ‘bot’ bole aur system charming ho jaaye...✨",
-    "Dil chhota mat kar, Rudra Stylish sirf tera...❤️‍🔥",
-    "Naam Rudra Stylish, kaam – teri smile banana...😁",
+    "Dil chhota mat kar, Raj xwd  sirf tera...❤️‍🔥",
+    "Naam Raj xwd, kaam – teri smile banana...😁",
     "Tera reply na aaye toh CPU heat होने lagta hai...🌡️",
     "Kya Tu ELvish Bhai Ke Aage Bolega🙄",
     "Cameraman Jaldi Focus Kro 📸",
@@ -367,9 +367,9 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   const msg = {
     body:
       `${randomTopBorder}\n\n` +
-      `✨ Hey ✨ 『 ${name} 』\n\n` +
+      `🙃 hay 😑『 ${name} 』\n\n` +
       `${randomEmojiForReply} 『 ${rand} 』\n\n` +
-      `— ${randomEmojiForCredit} Rudra Stylish ${randomEmojiForCredit}\n\n` +
+      `— ${randomEmojiForCredit} Raj xwd thakur ${randomEmojiForCredit}\n\n` +
       `🕒 ${randomEmojiForTime} ${randomUniqueTimeText}\n\n` +
       `${randomBottomBorder}`
   };
