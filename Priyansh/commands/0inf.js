@@ -23,36 +23,25 @@ module.exports.run = async function ({ api, event }) {
   const hours = Math.floor(time / 3600);
   const minutes = Math.floor((time % 3600) / 60);
   const seconds = Math.floor(time % 60);
-  const dateNow = moment.tz("Asia/Kolkata").format("『DD/MM/YYYY』 ⌚ 【HH:mm:ss】");
+  const dateNow = moment.tz("Asia/Kolkata").format("『DD/MM/YYYY』 【HH:mm:ss】");
 
+  // Your personal Imgur + anime links
   const imgLinks = [
-    "https://i.imgur.com/7vCTqbA.jpeg",
-    "https://i.imgur.com/VoPlE0Q.jpeg",
-    "https://i.imgur.com/5yHDG3r.jpeg",
-    "https://i.imgur.com/6rlJUGk.jpeg"
+    "https://i.imgur.com/JK7ywKt.jpeg",
+    "https://i.imgur.com/6axZedQ.jpeg",
   ];
 
   const chosenImage = imgLinks[Math.floor(Math.random() * imgLinks.length)];
 
-  const msg = 
-`╔═══✦༻🔥༺✦═══╗
-        𝐒𝐖𝐀𝐆 𝐌𝐎𝐃𝐄 𝐎𝐍 😎
-╚═══✦༻🔥༺✦═══╝
-
-🧠 𝗢𝗪𝗡𝗘𝗥: 𓆩 𝑹𝑼𝑫𝑹𝑨 ⚡𓆪
-👑 𝗕𝗢𝗧 𝗡𝗔𝗠𝗘: ${global.config.BOTNAME || "🔥 𝐑𝐔𝐃𝐑𝐀 ⚔️"}
-🔗 𝗜𝗡𝗦𝗧𝗔: @haryana_aala_sayzs
-🆔 𝗨𝗜𝗗: 61550558518720
-
-🌐 𝗣𝗥𝗘𝗙𝗜𝗫: 『 ${global.config.PREFIX || "+"} 』
-📅 𝗗𝗔𝗧𝗘: ${dateNow}
-⏳ 𝗨𝗣𝗧𝗜𝗠𝗘: ${hours}h ${minutes}m ${seconds}s
-
-📜 𝗧𝗬𝗣𝗘: '${global.config.PREFIX || "+"}help' 𝗧𝗢 𝗦𝗘𝗘 𝗔𝗟𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 💌
-
-╭──────────────╮
-💖 𝑴𝒂𝒅𝒆 𝒘𝒊𝒕𝒉 𝑺𝒘𝒂𝒈 𝒃𝒚 𝑹𝑼𝑫𝑹𝑨 💥
-╰──────────────╯`;
+  const msg = `✨ 𝙎𝙒𝘼𝙂 𝙈𝙊𝘿𝙀 𝙊𝙉 ✨\n━━━━━━━━━━━━━━━\n\n` +
+              `👑 𝗕𝗢𝗧: ${global.config.BOTNAME || "🔥 RAJ XWD THAKUR 👿"}\n` +
+              `🧠 𝗢𝗪𝗡𝗘𝗥:𝙍𝘼𝙅 𝙏𝙃𝘼𝙆𝙐𝙍 𝙓𝙒𝘿  🔥 (UID:100032269830615 )\n` +
+              `📸 𝗜𝗡𝗦𝗧𝗔: @rajthakur8` +
+              `📍 𝗣𝗥𝗘𝗙𝗜𝗫: ${global.config.PREFIX || "+"}\n` +
+              `📆 𝗗𝗔𝗧𝗘: ${dateNow}\n` +
+              `⏳ 𝗨𝗣𝗧𝗜𝗠𝗘: ${hours}h ${minutes}m ${seconds}s\n\n` +
+              `💌 𝗧𝗬𝗣𝗘 '${global.config.PREFIX || "+"}help' 𝗙𝗢𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 💌\n` +
+              `━━━━━━━━━━━━━━━\n💖 𝑴𝒂𝒅𝒆 𝒘𝒊𝒕𝒉 𝑺𝒘𝒂𝒈 𝒃𝒚 RAJ THAKUR XWD`;
 
   const callback = () =>
     api.sendMessage(
