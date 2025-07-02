@@ -108,7 +108,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     );
   }
 
-  // Gaali + rudra/bot check
+  // Gaali + raj/bot check
   const gaaliList = [
     "chutiya", "gandu", "bhosdike", "madarchod", "teri ma ki", "bc", "mc"
   ];
