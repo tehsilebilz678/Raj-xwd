@@ -5,7 +5,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.9.0",
   hasPermssion: 0,
-  credits: "Fixed By raj xwd Stylish + Styled by ChatGPT + Anti-detection by Gemini + Compatible Fonts Fix",
+  credits: "Fixed By raj xw+ Styled by ChatGPT + Anti-detection by Gemini + Compatible Fonts Fix",
   description: "The ULTIMATE ULTRA-PRO MAX bot: Gender-aware, unique fonts/emojis for ALL elements, and super stylish borders (with compatible fonts)!",
   commandCategory: "No prefix",
   usages: "No prefix needed",
